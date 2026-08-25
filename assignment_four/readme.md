@@ -112,12 +112,15 @@ Note: `student.txt` is created during execution, renamed to `studentDetails.txt`
 ## Expected Result
 
 The program successfully performs all five file-system operations with error handling.
-<img width="573" height="243" alt="image" src="https://github.com/user-attachments/assets/b3f5e000-04cd-4fe6-b820-f0a052d9d948" />
-<img width="569" height="245" alt="image" src="https://github.com/user-attachments/assets/852c719e-178e-43e0-b247-fb1a148f047d" />
-<img width="572" height="192" alt="image" src="https://github.com/user-attachments/assets/702d2619-7905-4fb1-a173-4e2c98137389" />
-<img width="518" height="157" alt="image" src="https://github.com/user-attachments/assets/b15e13c1-cb8a-4f0d-bb75-27ae05afe34a" />
-<img width="521" height="163" alt="image" src="https://github.com/user-attachments/assets/aa3ffe99-2d34-4a06-b440-fbe6dbc8f08c" />
+<img width="573" height="243" alt="Screenshot 2026-08-25 at 10 22 43 PM" src="https://github.com/user-attachments/assets/2fa22b6a-7e87-4457-87df-73e776ed06e9" />
 
+<img width="569" height="245" alt="Screenshot 2026-08-25 at 10 25 08 PM" src="https://github.com/user-attachments/assets/bd583172-699e-42ff-963a-7a5176389dba" />
+
+<img width="572" height="192" alt="Screenshot 2026-08-25 at 10 25 30 PM" src="https://github.com/user-attachments/assets/59c1773f-64c9-4ca6-867c-a7aec4b2e4e7" />
+
+<img width="518" height="157" alt="Screenshot 2026-08-25 at 10 25 45 PM" src="https://github.com/user-attachments/assets/23945a2b-0432-4ecb-897c-73030c7e8db9" />
+
+<img width="521" height="163" alt="Screenshot 2026-08-25 at 10 25 58 PM" src="https://github.com/user-attachments/assets/421317bf-b2b4-4735-883c-7706b5a1dc36" />
 
 ## Conclusion
 
