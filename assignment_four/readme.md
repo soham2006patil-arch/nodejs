@@ -112,6 +112,12 @@ Note: `student.txt` is created during execution, renamed to `studentDetails.txt`
 ## Expected Result
 
 The program successfully performs all five file-system operations with error handling.
+<img width="573" height="243" alt="image" src="https://github.com/user-attachments/assets/b3f5e000-04cd-4fe6-b820-f0a052d9d948" />
+<img width="569" height="245" alt="image" src="https://github.com/user-attachments/assets/852c719e-178e-43e0-b247-fb1a148f047d" />
+<img width="572" height="192" alt="image" src="https://github.com/user-attachments/assets/702d2619-7905-4fb1-a173-4e2c98137389" />
+<img width="518" height="157" alt="image" src="https://github.com/user-attachments/assets/b15e13c1-cb8a-4f0d-bb75-27ae05afe34a" />
+<img width="521" height="163" alt="image" src="https://github.com/user-attachments/assets/aa3ffe99-2d34-4a06-b440-fbe6dbc8f08c" />
+
 
 ## Conclusion
 
