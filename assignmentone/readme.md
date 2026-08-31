@@ -64,12 +64,5 @@ The `finalSelectionCheck()` function:
 
 ---
 
-## 📊 Input Data
-
-```javascript
-let codingMarks = [80, 75, 90, 85, 70];
-let technicalMarks = [78, 82, 88, 75, 80];
-
-let codingCutoff = 70;
-let technicalCutoff = 70;
-let finalCutoff = 75;
+## 📊 Output
+<img width="545" height="145" alt="image" src="https://github.com/user-attachments/assets/734e6199-f34d-4c77-bcba-ba556008d4cd" />
