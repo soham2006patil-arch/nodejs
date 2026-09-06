@@ -49,12 +49,8 @@ http://localhost:3000/api/faculty
 
 ## Expected Terminal Output
 
-```text
-Server is running on http://localhost:3000
-GET /api/students YYYY-MM-DD HH:MM:SS
-GET /api/courses YYYY-MM-DD HH:MM:SS
-GET /api/faculty YYYY-MM-DD HH:MM:SS
-```
+<img width="332" height="93" alt="Screenshot 2026-09-06 at 8 20 10 PM" src="https://github.com/user-attachments/assets/d0a640d0-e03e-4205-b412-057b829b35ee" />
+
 
 ## Concepts Covered
 
