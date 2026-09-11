@@ -70,14 +70,14 @@ Route: `GET /student/:id` with `name` and `course` query parameters.
 Example:
 
 ```text
-http://localhost:3000/student/101?name=John&course=FullStack
+http://localhost:3000/student/101?name=Soham&course=FullStack
 ```
 
 Output:
 
 ```text
 Student ID: 101
-Name: John
+Name: Soham
 Course: FullStack
 ```
 
