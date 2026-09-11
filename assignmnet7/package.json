@@ -1,0 +1,12 @@
+{
+  "name": "assignment-seven-route-and-query-parameters",
+  "version": "1.0.0",
+  "description": "Express assignments covering route parameters and query parameters",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
