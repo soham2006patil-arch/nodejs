@@ -257,7 +257,20 @@ jwt.verify()
 Valid Token?
 ↓
 /profile
+
 ```
+
+# ScreenShots
+
+## Register
+<img width="814" height="623" alt="image" src="https://github.com/user-attachments/assets/77bb8e18-4bc6-45ec-afbf-784b19077d72" />
+
+## Login
+<img width="815" height="578" alt="image" src="https://github.com/user-attachments/assets/48169c52-bf4f-467f-8075-7a54fe54fded" />
+
+## Profile
+<img width="814" height="593" alt="image" src="https://github.com/user-attachments/assets/6a0c9026-d41a-4917-9007-b08acff93d84" />
+
 
 ## Security Considerations
 - Passwords are never stored in plain text.
@@ -284,82 +297,3 @@ Take these screenshots for assignment submission:
 
 
 
-## Common Errors and Fixes
-### 1. MongoDB connection error
-Check your `MONGO_URI` in `.env`.
-
-### 2. JWT secret missing
-Add `JWT_SECRET` in `.env`.
-
-### 3. Password not hashing
-Ensure you use `bcrypt.hash()` before creating the user.
-
-### 4. Login fails
-Check whether the user exists and whether the password is correct.
-
-### 5. 401 unauthorized on `/profile`
-Send the token in the `Authorization` header as `Bearer <token>`.
-
-## Viva Questions and Answers
-### 1. What is Node.js?
-Node.js is a JavaScript runtime that allows JavaScript to run on the server side.
-
-### 2. What is Express.js?
-Express.js is a small and flexible Node.js framework used to build web APIs and servers.
-
-### 3. What is MongoDB?
-MongoDB is a NoSQL database that stores data in collections and documents.
-
-### 4. What is MongoDB Atlas?
-MongoDB Atlas is the cloud-hosted managed version of MongoDB.
-
-### 5. What is Mongoose?
-Mongoose is a library that helps Node.js connect to MongoDB and define schemas.
-
-### 6. What is bcrypt?
-bcrypt is a library used to hash passwords securely.
-
-### 7. Why do we hash passwords?
-To protect user passwords from being stored in plain text and from being exposed in case of a database leak.
-
-### 8. What is JWT?
-JWT stands for JSON Web Token. It is a compact token used to verify a user identity.
-
-### 9. What is authentication?
-Authentication is the process of verifying who a user is.
-
-### 10. What is authorization?
-Authorization is the process of checking whether a user is allowed to access a resource.
-
-### 11. What is middleware?
-Middleware is a function that runs between the request and the final route handler.
-
-### 12. What is an API?
-An API is a set of endpoints that allows applications to communicate with each other.
-
-### 13. What is the Authorization header?
-It is an HTTP header used to send authentication credentials, such as a JWT token.
-
-### 14. What is a Bearer token?
-A Bearer token is a token sent in the `Authorization` header in the format `Bearer <token>`.
-
-### 15. Why do we use `.env`?
-We use `.env` to store sensitive values like database URLs and secrets outside the source code.
-
-### 16. Why should passwords never be stored as plain text?
-Plain text passwords are unsafe and can be easily read if the database is compromised.
-
-### 17. What does bcrypt.compare() do?
-It compares a plain text password with a hashed password to check if they match.
-
-### 18. What does jwt.verify() do?
-It checks whether a JWT is valid and returns the user data stored in the token.
-
-### 19. What happens when a JWT is invalid?
-The server rejects the request and returns `401 Unauthorized`.
-
-### 20. Why is `/profile` a private endpoint?
-Because it should only be accessed by a logged-in user with a valid token.
-
-## Final Notes
-This project is designed to be simple, clean, and easy to explain in a college viva. The most important idea is that passwords are hashed before saving, and private routes are protected by JWT verification.
